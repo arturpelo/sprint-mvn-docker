@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class Controler {
 
-    @GetMapping("/test")
+    @GetMapping("/wszib")
     @ResponseBody
     public String mup() {
-        return "Witaj w sekcji test!";
+        return "Witaj w sekcji wszib!";
     }
 
     @GetMapping("/student")
